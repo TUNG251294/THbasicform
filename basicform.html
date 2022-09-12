@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basicform</title>
+    <style>h2 {
+        background-color: #ff4828;
+        color: white;
+        text-align: center
+    }</style>
+    <!--<link rel="stylesheet" href="basicform.css">-->
+</head>
+<body>
+<form action="http://" method="get">
+    <fieldset style="width: 400px"><h2>SỞ THÍCH CỦA BẠN</h2>
+        <label for="myname">Họ và tên</label>
+        <input type="text" id="myname" name="mname" style="width: 150px; height: 15px">
+        <p></p>
+        <!--The p tao khoang cach dong lon hon the br-->
+        <label for="myemail">&emsp;&ensp;Email</label>
+        <input type="text" id="myemail" name="memail" style="width: 100px">
+        <p></p>
+        &ensp;Sớ thích
+        <div style="text-align: center"><label style="color: orange"><input type="checkbox" name="lobby">Thể thao&ensp;</label>
+            <label style="color: orange"><input type="checkbox" name="lobby">Âm nhạc&ensp;</label>
+            <label style="color: orange"><input type="checkbox" name="lobby">Đọc sách</label><br>
+            <label style="color: orange"><input type="checkbox" name="lobby">Lướt web</label>
+            <label style="color: orange"><input type="checkbox" name="lobby">Chơi game</label>
+            <label style="color: orange"><input type="checkbox" name="lobby">Điện ảnh</label><br></div>
+        &emsp;&emsp;&emsp;&emsp;&ensp;<label style="color: orange"><input type="checkbox" name="lobby">Du
+            lịch</label><br>
+        <div style="text-indent: 70px"><button type="submit">Gửi thông tin</button>
+        <button type="reset">Nhập lại</button></div>
+    </fieldset>
+</form>
+</body>
+</html>
